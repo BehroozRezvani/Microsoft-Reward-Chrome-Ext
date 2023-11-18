@@ -1,7 +1,7 @@
 class SearchQuest {
     constructor(googleTrend) {
         this._googleTrend_ = googleTrend;
-        this._searchIntervalMS = Math.floor(Math.random() * (25000 - 5000 + 1)) + 5000;
+        this._searchIntervalMS = Math.floor(Math.random() * (15000 - 5000 + 1)) + 5000;
         this.reset();
     }
 
